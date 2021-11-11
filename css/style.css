@@ -65,18 +65,40 @@ html {
     padding: 20px 0;
 }
 
+.game-evidence .row {
+    margin-bottom: 5em;
+    margin-top: 1.5em;
+}
+
 .evidence-card-btn {
     border: 0;
-    padding: 5px;
+    padding: 8px 5px;
     border-radius: 30px;
     background-color: transparent;
+    transition: 0.15s;
+}
+
+.evidence-card-btn:focus {
+    border: 3px solid #0072ce;
+    padding: 2px;
 }
 
 .evidence-card-btn img {
     border-radius: 30px;
 }
 
-.evidence-card-btn:focus {
-    border: 3px solid #0072ce;
-    padding: 2px;
+.card-widget > button {
+    height: 219px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 3px solid #157dd200;
+    transition: 0.2s;
+}
+
+.card-widget > button:focus {
+    border-bottom: 3px solid #157ed2;
+}
+
+.card-widget > button > img {
+    opacity: 0.7;
 }
