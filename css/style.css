@@ -1,6 +1,7 @@
 :root {
-    --btn-color: #363636;
-
+    --btn-dark: #363636;
+    --btn-orange: #cd3d0f
+    ;
 }
 
 * {
@@ -35,7 +36,7 @@ html {
 }
 
 .btn-log {
-    background-color: var(--btn-color);
+    background-color: var(--btn-dark);
 }
 
 .fa-magnifying-glass {
@@ -43,8 +44,19 @@ html {
 }
 
 .jumbotext {
-    width: 200px;
-    height: 200px;
-    bottom: 5%;
-    left: 5%;
+    bottom: 7%;
+    left: 2%;
+}
+
+.jumbotext img {
+    height: 4em;
+}
+
+.jumbotext p {
+    padding-right: 1em;
+}
+
+.btn-buy {
+    background-color: var(--btn-orange);
+    color: white;
 }

@@ -1,5 +1,12 @@
+@media screen and (min-width: 990px) {
+    .jumbotext p {
+        max-width: 400px;
+    }
+}
+
 @media screen and (min-width: 1750px) {
-    .jumbotron img {
+    .jumbo-bg {
         width: 100%;
+        
     }
 }
