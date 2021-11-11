@@ -60,3 +60,23 @@ html {
     background-color: var(--btn-orange);
     color: white;
 }
+
+.game-evidence {
+    padding: 20px 0;
+}
+
+.evidence-card-btn {
+    border: 0;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.evidence-card-btn img {
+    border-radius: 30px;
+}
+
+.evidence-card-btn:focus {
+    border: 3px solid #0072ce;
+    padding: 2px;
+}
