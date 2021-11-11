@@ -41,3 +41,10 @@ html {
 .fa-magnifying-glass {
     font-size: 1.5em;
 }
+
+.jumbotext {
+    width: 200px;
+    height: 200px;
+    bottom: 5%;
+    left: 5%;
+}
