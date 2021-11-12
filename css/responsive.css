@@ -20,7 +20,7 @@
     .device-box .row {
         justify-content: start;
         flex-wrap: wrap;
-        column-gap: 6em;
+        column-gap: 10%;
         row-gap: 1em;
     }
 

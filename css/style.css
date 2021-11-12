@@ -20,6 +20,8 @@ html {
     margin: 0 auto;
 }
 
+/* header */
+
 .logo img {
     height: 20px;
 }
@@ -43,6 +45,12 @@ html {
     font-size: 1.5em;
 }
 
+/* header */
+
+
+
+/* jumbotron */
+
 .jumbotext {
     bottom: 7%;
     left: 2%;
@@ -60,6 +68,12 @@ html {
     background-color: var(--btn-orange);
     color: white;
 }
+
+/* jumbotron */
+
+
+
+/* game in evidence */
 
 .game-evidence {
     padding: 20px 0;
@@ -87,6 +101,12 @@ html {
     border-radius: 30px;
 }
 
+/* game in evidence */
+
+
+
+/* device in evidence */
+
 .device-box .row {
     justify-content: space-between;
 }
@@ -105,3 +125,5 @@ html {
 .card-widget > button > img {
     opacity: 0.7;
 }
+
+/* device in evidence */
