@@ -112,6 +112,11 @@ html {
     height: 4em;
 }
 
+.it-tekes-two .container-fluid > img {
+    filter: brightness(0.5);
+}
+
+
 .jumbotext p, .jumbotext h1 {
     padding-right: 1em;
 }

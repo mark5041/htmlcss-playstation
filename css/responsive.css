@@ -12,10 +12,6 @@
 }
 
 @media screen and (max-width: 993px) {
-    
-    html {
-        font-size: 80%;
-    }
 
     .my-container{
         width: 90%;
@@ -43,7 +39,7 @@
 
 @media screen and (max-width: 768px) {
     .store .row {
-        justify-content: space-around;
+        justify-content: start;
     }
 }
 
