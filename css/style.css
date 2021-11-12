@@ -16,7 +16,7 @@ html {
 }
 
 .my-container{
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -87,6 +87,10 @@ html {
     border-radius: 30px;
 }
 
+.device-box .row {
+    justify-content: space-between;
+}
+
 .card-widget > button {
     height: 219px;
     border: 0;
@@ -94,7 +98,6 @@ html {
     border-bottom: 3px solid #157dd200;
     transition: 0.2s;
 }
-
 .card-widget > button:focus {
     border-bottom: 3px solid #157ed2;
 }

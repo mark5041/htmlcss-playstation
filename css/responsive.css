@@ -10,3 +10,21 @@
         
     }
 }
+
+@media screen and (max-width: 993px) {
+    .my-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .device-box .row {
+        justify-content: start;
+        flex-wrap: wrap;
+        column-gap: 6em;
+        row-gap: 1em;
+    }
+
+    .device-box span {
+        display: none;
+    }
+}
