@@ -101,13 +101,14 @@ html {
 .jumbotext {
     bottom: 7%;
     left: 2%;
+    max-width: 400px;
 }
 
 .jumbotext img {
     height: 4em;
 }
 
-.jumbotext p {
+.jumbotext p, .jumbotext h1 {
     padding-right: 1em;
 }
 
@@ -156,16 +157,18 @@ html {
 
 .device-box .row {
     justify-content: space-between;
+    margin: 0.25em;
 }
 
-.card-widget > button {
-    height: 219px;
+.card {
     border: 0;
     background-color: transparent;
+    border-radius: 0;
     border-bottom: 3px solid #157dd200;
     transition: 0.2s;
 }
-.card-widget > button:focus {
+
+.device-box .card:focus {
     border-bottom: 3px solid #157ed2;
 }
 
@@ -174,3 +177,19 @@ html {
 }
 
 /* device in evidence */
+
+
+
+/* store */
+
+.store {
+    background-color: #1f1f1f;
+}
+
+.store img {
+    border-radius: 20px;
+}
+
+
+/* device in evidence */
+

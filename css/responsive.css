@@ -24,7 +24,7 @@
         row-gap: 1em;
     }
 
-    .device-box span {
+    .device-box h5 {
         display: none;
     }
 }
