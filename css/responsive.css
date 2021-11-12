@@ -12,6 +12,11 @@
 }
 
 @media screen and (max-width: 993px) {
+    
+    html {
+        font-size: 80%;
+    }
+
     .my-container{
         width: 90%;
         margin: 0 auto;
@@ -26,5 +31,27 @@
 
     .device-box h5 {
         display: none;
+    }
+
+    .dropdown-menu .row {
+        justify-content: start;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .store .row {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .jumbotext {
+        bottom: 7%;
+        left: 2%;
+        max-width: 300px;
     }
 }

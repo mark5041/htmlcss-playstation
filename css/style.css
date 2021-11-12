@@ -65,6 +65,10 @@ html {
     transition: 0.2s;
 }
 
+.dropdown-menu .row {
+    justify-content: center;
+}
+
 .list-group-item::before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -101,7 +105,7 @@ html {
 .jumbotext {
     bottom: 7%;
     left: 2%;
-    max-width: 400px;
+    max-width: 96%;
 }
 
 .jumbotext img {
@@ -121,6 +125,16 @@ html {
 
 
 
+/* intro */
+
+.PS5-box .row {
+    justify-content: center;
+}
+
+/* intro */
+
+
+
 /* game in evidence */
 
 .game-evidence {
@@ -135,7 +149,7 @@ html {
 .evidence-card-btn {
     border: 0;
     padding: 8px 5px;
-    border-radius: 30px;
+    border-radius: 25px;
     background-color: transparent;
     transition: 0.15s;
 }
@@ -146,7 +160,7 @@ html {
 }
 
 .evidence-card-btn img {
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 /* game in evidence */
@@ -186,10 +200,14 @@ html {
     background-color: #1f1f1f;
 }
 
+.store .row {
+    justify-content: center;
+}
+
+
 .store img {
     border-radius: 20px;
 }
-
 
 /* device in evidence */
 
