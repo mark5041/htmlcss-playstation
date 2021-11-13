@@ -26,6 +26,19 @@ html {
     height: 20px;
 }
 
+header {
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: -1px;
+    z-index: 100000;
+}
+
+nav .nav-item .input-group-text{
+    background-color: white;
+    border: 0;
+}
+
 .dropdown-toggle::after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -37,15 +50,11 @@ html {
     border-right: 0.3em solid transparent;
     border-bottom: 0;
     border-left: 0.3em solid transparent;
-    transition: 0.2s;
-}
-
-.dropdown-toggle:focus:after {
-    transform: rotateX(180deg);
+    transition: 0.3s;
 }
 
 .dropdown-menu[data-bs-popper] {
-    top: 100%;
+    top: calc(100% - 1px);
     left: 0;
     margin-top: 0rem;
     display: block;
@@ -159,11 +168,6 @@ html {
     transition: 0.15s;
 }
 
-.evidence-card-btn:focus {
-    border: 3px solid #0072ce;
-    padding: 2px;
-}
-
 .evidence-card-btn img {
     border-radius: 25px;
 }
@@ -191,7 +195,7 @@ html {
     border-bottom: 3px solid #157ed2;
 }
 
-.card-widget > button > img {
+.device-box .card > img {
     opacity: 0.7;
 }
 
@@ -214,5 +218,47 @@ html {
     border-radius: 20px;
 }
 
-/* device in evidence */
+/* store */
 
+
+
+/* playstation now */
+
+.playstation-now {
+    background-color: #161c3b;
+}
+
+/* playstation now */
+
+
+
+/* sale */
+
+.sale .row:nth-child(2) {
+    justify-content: center;
+}
+
+/* sale */
+
+
+
+
+/* footer */
+
+footer .box .row {
+    padding-left: 2em;
+    
+}
+
+
+footer ul {
+    list-style: none;
+}
+
+
+
+.globe {
+    width: 15px;
+}
+
+/* footer */

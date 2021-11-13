@@ -1,3 +1,26 @@
+
+.dropdown-toggle:focus:after {
+  transform: rotateX(180deg);
+}
+
+.device-box .card:focus {
+  border-bottom: 3px solid #157ed2;
+}
+
+.device-box .card:hover > img, .card:focus > img {
+  opacity: 1;
+}
+
+.evidence-card-btn:focus {
+  border: 3px solid #0072ce;
+  padding: 2px;
+}
+
+.evidence-card-btn:focus, .evidence-card-btn:hover {
+  transform: translateY(-10px);
+}
+
+
 .animate {
     animation-duration: 0.3s;
     -webkit-animation-duration: 0.3s;
@@ -7,7 +30,7 @@
   
   @keyframes slideIn {
     0% {
-      transform: translateY(-1rem);
+      transform: translateY(-1.5rem);
       opacity: 0;
     }
   
@@ -17,7 +40,7 @@
     }
   
     0% {
-      transform: translateY(-1rem);
+      transform: translateY(-1.5rem);
       opacity: 0;
     }
   }

@@ -33,13 +33,30 @@
         justify-content: start;
     }
 
+    footer .box .row {
+        justify-content: space-evenly;
+    }
 
 }
 
 
 @media screen and (max-width: 768px) {
+    nav .nav-item .input-group-text{
+        background-color: white;
+        border: 1px solid #ced4da;
+        border-right: 0;
+    }
+
+    nav .nav-item .form-control{
+        border-left: 0;
+    }
+    
     .store .row {
         justify-content: start;
+    }
+
+    .sale .row:nth-child(2) {
+        justify-content: space-evenly;
     }
 }
 

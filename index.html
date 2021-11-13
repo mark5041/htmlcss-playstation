@@ -14,14 +14,17 @@
 </head>
 <body>
 
-    <header class="container-fluid">
+    <div class="container-fluid">
         <div class="logo row">
             <div class="py-2 bg-dark">
                 <img class="float-end" src="img/sony_logo.svg" alt="">
             </div>
         </div>
+    </div>
+
+    <header class="container-fluid position-sticky">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light scrolling-navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="img/play_logo.svg" alt="">
@@ -230,7 +233,7 @@
                                 </ul>
                             </li>
                         </ul>
-                        <ul class="navbar-nav mb-2 mb-lg-0">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
                             <li class="nav-item dropdown position-static">
                                 <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     My Playstation
@@ -267,15 +270,16 @@
                             <li class="nav-item">
                                 <button class="btn btn-log rounded-pill mx-0 mx-lg-3 my-3 my-lg-0 text-light">Accedi</button>
                             </li>
-                            <li class="nav-item d-flex">
-                                <a href="#" class="ms-1 ms-lg-0 align-self-center text-dark">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </a>
+                            <li class="nav-item">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                    <input type="text" class="form-control d-block d-md-none" placeholder="Cerca" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                </nav>
+            </nav>
         </div>
     </header>
 
@@ -370,31 +374,31 @@
         <section class="device-box text-dark py-5">
             <div class="container pb-5">
                 <div class="row">
-                    <button class="card col-5 col-md-3 col-lg-2">
+                    <button class="card col-3 col-lg-2">
                       <img src="img/playstation-5-thumb.png" class="card-img-top" alt="...">
                       <div class="card-body align-self-center">
                         <h5 class="card-title fs-6">Console PS5</h5>
                       </div>
                     </button>
-                    <button class="card col-5 col-md-3 col-lg-2">
+                    <button class="card col-3 col-lg-2">
                         <img src="img/joypad-thumb.png" class="card-img-top" alt="...">
                         <div class="card-body align-self-center">
                             <h5 class="card-title fs-6">Controller wireless DualSense™</h5>
                         </div>
                     </button>
-                    <button class="card col-5 col-md-3 col-lg-2">
+                    <button class="card col-3 col-lg-2">
                         <img src="img/headset-thumb.png" class="card-img-top" alt="...">
                         <div class="card-body align-self-center">
                             <h5 class="card-title fs-6">Cuffie wireless con microfono PULSE 3D™</h5>
                         </div>
                     </button>
-                    <button class="card col-5 col-md-3 col-lg-2">
+                    <button class="card col-3 col-lg-2">
                         <img src="img/remote-thumb.png" class="card-img-top" alt="...">
                         <div class="card-body align-self-center">
                           <h5 class="card-title fs-6">Telecomando Media</h5>
                         </div>
                     </button>
-                    <button class="card col-5 col-md-3 col-lg-2">
+                    <button class="card col-3 col-lg-2">
                         <img src="img/camera-thumb.jpg" class="card-img-top" alt="...">
                         <div class="card-body align-self-center">
                           <h5 class="card-title fs-6">Telecamera HD</h5>
@@ -501,7 +505,7 @@
 
         
 
-        <section class=" container py-5">
+        <section class="explore container py-5">
             <div class="row">
                 <div class="col-12 text-center p-0">
                     <h1 class="py-4">Esplora la Playstation®4</h1>
@@ -518,39 +522,166 @@
         <section class="PS4-device text-dark py-5">
             <div class="container pb-5">
                 <div class="row justify-content-center">
-                    <div class="card col-11 col-md-3">
+                    <div class="card col-11 col-md-4">
                         <img src="img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Playstation 4</h5>
                             <p class="card-text">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-                            <a href="#" class="btn rounded-pill btn-primary">Scopri di più</a>
+                            <button class="my-btn px-4 py-2 bg-primary border-0 rounded-pill mb-4 text-light">Scopri di più</button>
                         </div>
                     </div>
-                    <div class="card col-11 col-md-3 mt-3 mt-md-0">
+                    <div class="card col-11 col-md-4 mt-3 mt-md-0">
                         <img src="img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Playstation VR</h5>
                             <p class="card-text"> Oltre 550 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                            <a href="#" class="btn rounded-pill btn-primary">Scopri di più</a>
+                            <button class="my-btn px-4 py-2 bg-primary border-0 rounded-pill mb-4 text-light">Scopri di più</button>
                         </div>
                     </div>
-                    <div class="card col-11 col-md-3 me-0 mt-3 mt-md-0">
+                    <div class="card col-11 col-md-4 me-0 mt-3 mt-md-0">
                         <img src="img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Accessori</h5>
                             <p class="card-text">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali. </p>
-                            <a href="#" class="btn rounded-pill btn-primary">Scopri di più</a>
+                            <button class="my-btn px-4 py-2 bg-primary border-0 rounded-pill mb-4 text-light">Scopri di più</button>
                         </div>
                     </div>
                 </div>
         </section>
 
+        
+
+        <section class="playstation-plus text-light bg-secondary py-5 py-md-0">
+            <div class="container p-0">
+                <div class="row w-100">
+                    <div class="col-11 col-md-6 ps-4 ps-md-0 pe-0 ps-md-3 align-self-center">
+                        <img class="w-50" src="img/ps-plus-logo.png" alt="">
+                        <p class="text-break fs-5 my-4">Sperimenta una nuova generazione di incredibili giochi Playstation</p>
+                        <button class="my-btn px-4 py-2 bg-Light border-0 rounded-pill mb-4 text-primary">Maggiori informazioni</button>
+                    </div>
+                    <div class="col-11 col-md-6 d-none d-md-block ps-4 ps-md-0 align-self-center">
+                        <img class="w-100" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section class="sale text-dark py-5">
+            <div class="container pb-5">
+                <div class="row mb-5">
+                    <div class="col-12 text-center p-0">
+                        <h1 class="py-4">Esplora la Playstation®4</h1>
+                        <span class="py-3 fs-5 text-secondary">
+                            Giochi incredibili e intrattenimento Senza fine. <br>
+                            Non c'è mmai stato un momento migliore per giocare sulla tua PS4
+                        </span>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <button class="card col-12 px-0 px-md-3 col-md-4">
+                        <img src="img/playstation-store-games-under-20-spotlight.jpg" class="card-img-top" alt="...">
+                    </button>
+                    <button class="card col-12 px-0 px-md-3 col-md-4 mt-3 mt-md-0">
+                        <img src="img/playstation-store-golden-week-sale-spotlight.jpg" class="card-img-top" alt="...">
+                    </button>
+                    <button class="card col-12 px-0 px-md-3 col-md-4 me-0 mt-3 mt-md-0">
+                        <img src="img/playstation-store-free-to-play-spotlight.png" class="card-img-top" alt="...">
+                    </button>
+                </div>
+        </section>
+
+
+
+        <section class="playstation-now text-light py-5 py-md-0">
+            <div class="container p-0">
+                <div class="row w-100">
+                    <div class="col-11 col-md-6 ps-4 ps-md-0 pe-0 ps-md-3 align-self-center">
+                        <img class="w-50" src="img/ps-now-logo-two-column.png" alt="">
+                        <p class="text-break fs-5 my-4">Sperimenta una nuova generazione di incredibili giochi Playstation</p>
+                        <button class="my-btn px-4 py-2 bg-Light border-0 rounded-pill mb-4 text-dark">Maggiori informazioni</button>
+                    </div>
+                    <div class="col-11 col-md-6 d-none d-md-block ps-4 ps-md-0 align-self-center">
+                        <img class="w-100" src="img/ps-now-april-featured-image-block.png" alt="">
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section class="sale text-dark py-5">
+            <div class="container pb-5">
+                <div class="row mb-5">
+                    <div class="col-12 text-center p-0">
+                        <h3 class="py-4">Esplora la Playstation®4</h3>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <button class="card col-5 col-sm-2 px-0 px-md-3 me-0 mt-3 mt-md-0">
+                        <img src="img/twitter.jpg" class="card-img-top" alt="...">
+                    </button>
+                    <button class="card col-5 col-sm-2 px-0 px-md-3 me-0 mt-3 mt-md-0">
+                        <img src="img/facebook.jpg" class="card-img-top" alt="...">
+                    </button>
+                    <button class="card col-5 col-sm-2 px-0 px-md-3 me-0 mt-3 mt-md-0">
+                        <img src="img/instagram.jpg" class="card-img-top" alt="...">
+                    </button>
+                    <button class="card col-5 col-sm-2 px-0 px-md-3 me-0 mt-3 mt-md-0">
+                        <img src="img/youtube.png" class="card-img-top" alt="...">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+
     </main>
 
 
 
-    <footer>
-
+    <footer class="bg-primary">
+        <div class="container pt-1">
+            <div class="row top-footer mb-5 py-5 mt-5">
+                <div class="col-12 col-lg-6 p-0 ps-2">
+                    <img class="mb-4" src="img/ps-footer.svg" alt=""> <br>
+                    <a href=""><img class="globe" src="img/language-globe.svg" alt=""></a>
+                    <span class="text-light ms-1">Country | Region: Italy</span>
+                </div>
+                <div class="box col-12 col-lg-6 p-0 text-light ">
+                    <div class="row flex-md-row-reverse me-0">
+                        <ul class="col-12 col-md-3 my-0 mt-3 mt-lg-0 px-0 list-inline">
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                        </ul>
+                        <ul class="col-12 col-md-3 my-0 mt-0 mt-md-3 mt-lg-0 px-0 list-inline">
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                        </ul>
+                        <ul class="col-12 col-md-3 my-0 mt-0 mt-md-3 mt-lg-0 px-0 list-inline">
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                            <li><a class="text-light text-decoration-none" href="">link footer n</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-lg-6 p-0 ps-2">
+                    <img class="h-25 mb-3" src="img/sie-logo.svg" alt=""> <br>
+                    <span class="text-light px-1">Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. Maggiori info</span>
+                </div>
+            </div>
+        </div>
     </footer>
     
     
