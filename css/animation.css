@@ -24,6 +24,21 @@
   border: 2px solid white;
 }
 
+.btn-buy-box:focus .btn-buy, .btn-buy-box:hover .btn-buy {
+  border: 2px solid black;
+  color: white;
+}
+
+.my-btn-box:focus,.my-btn-box:hover {
+  background-color: white;
+  border: 2px solid rgb(13,110,253);
+}
+
+.playstation-now .my-btn-box:focus .my-btn, .playstation-now .my-btn-box:hover .my-btn {
+  border: 2px solid black;
+}
+
+
 
 .animate {
     animation-duration: 0.3s;
