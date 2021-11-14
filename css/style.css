@@ -117,6 +117,10 @@ nav .nav-item .input-group-text{
     border: 0;
 }
 
+nav .list-group-item a {
+    color: black;
+}
+
 .btn-log {
     background-color: var(--btn-dark);
 }

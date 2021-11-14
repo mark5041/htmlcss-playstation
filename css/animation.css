@@ -8,6 +8,10 @@
   color: black;
 }
 
+nav .list-group-item a:hover {
+  color: #0072ce;
+}
+
 .btn-card-nav:focus,.btn-card-nav:hover {
   border: 1px solid rgba(0, 0, 0, 0.705);
   box-shadow: 0px 0px 16px 4px rgba(0,0,0,0.92);
